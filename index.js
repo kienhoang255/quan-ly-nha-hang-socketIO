@@ -1,6 +1,8 @@
-const io = require("socket.io")(8000, {
+const PORT = 8000;
+
+const io = require("socket.io")(PORT, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://gleaming-croissant-d53d3e.netlify.app/",
   },
 });
 
