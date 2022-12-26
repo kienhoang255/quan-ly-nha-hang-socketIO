@@ -3,6 +3,7 @@ const PORT = 8000;
 const io = require("socket.io")(PORT, {
   cors: {
     origin: "http://localhost:3000",
+    credentials: true,
   },
 });
 
