@@ -2,7 +2,7 @@ const PORT = 8000;
 
 const io = require("socket.io")(PORT, {
   cors: {
-    origin: "https://gleaming-croissant-d53d3e.netlify.app/",
+    origin: "https://gleaming-croissant-d53d3e.netlify.app",
   },
 });
 
